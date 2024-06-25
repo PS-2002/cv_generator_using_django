@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{user_profile.name}}</h1>
+    <h1>{{user_profile.email}}</h1>
+    <h1>{{user_profile.phone}}</h1>
+    <hr/>
+    <br/>
+    <h2>Summary:</h2>
+    <p>{{user_profile.summary}}</p>
+    <hr/>
+    <h2>Skills:</h2>
+    <p>{{user_profile.skills}}</p>
+    <hr/>
+    <h2>Education:</h2>
+    <ul>
+        <li>Schooling: {{user_profile.school}}</li>
+        <li>{{user_profile.degree}} from {{user_profile.university}}</li>
+    </ul>
+    <hr/>
+    <h2>Experience:</h2>
+    <p>{{user_profile.previous_work}}</p>
+</body>
+</html>
